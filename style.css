@@ -1,0 +1,15 @@
+.container div:hover {
+    background-color: grey;
+}
+
+.grid {
+    border: 1px solid red;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid black;
+
+}
