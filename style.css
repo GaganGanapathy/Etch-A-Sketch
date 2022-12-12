@@ -2,14 +2,44 @@
     background-color: grey;
 }
 
-.grid {
-    border: 1px solid red;
-}
+
 
 .container {
     width: 500px;
     height: 500px;
     display: grid;
     border: 1px solid black;
+    margin: 0 10px;
 
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    background-image: url(https://images.unsplash.com/photo-1597730945481-f35a5cf39021?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    padding: 10px;
+    margin: 2rem;
+    background: content-box;
+    color: #3fb55b;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
 }
