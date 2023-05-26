@@ -9,10 +9,24 @@
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <h1>ETCH-A-SKETCH</h1>
-    <div class="container"></div>
-    <button id="reset">Reset to a new Board</button>
-    <button class="random">Random</button>
-    <button class="clear">Clear</button>
+    <div class="leftPart">
+        <div class="content left">
+            <h1>ETCH-A-SKETCH</h1>
+            <div class="container"></div>
+            <div class="right">
+                <button id="reset" class="btn">Reset to a new Board</button>
+                <button class="random btn">Random</button>
+                <button class="clear btn">Clear</button>
+                <!-- <input type="text" placeholder="Color" name="color" value=""> -->
+            </div>
+        </div>
+        <div class="right">
+            <form >
+                <input type="number" name="size" min="1" id="num" value="" placeholder="New Grid Size">
+                <input type="text" placeholder="Color" id="color" name="color" value="">
+                <button hidden> Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
